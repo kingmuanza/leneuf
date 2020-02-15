@@ -1,0 +1,97 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+
+
+.muanza-carousel {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    top:0;
+    left:0;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.revenir {
+    display: block;
+    position: fixed;
+    z-index: 188888;
+    bottom:0;
+    left:5vw;
+    font-size: 1.2em;
+    font-weight: 100;
+    border: 0px solid white;
+    padding : 17px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: $couleur-primaire;
+    cursor: pointer;
+    transition: letter-spacing 400ms;;
+    &:hover {
+        background-color: lighten($couleur-primaire, 10%);
+        letter-spacing: 1px;
+    }
+}
+
+h2 {
+    display: block;
+    position: absolute;
+    width: 80vw; 
+    top:110vh;
+    left:10vw;
+    text-transform: uppercase;
+    margin: 0;
+}
+h2::after {
+    content: '';
+    padding-bottom: 3vh;
+    display: block;
+    border-bottom: 4px solid $couleur-primaire;
+    width: 30%;
+}
+
+
+p {
+    display: block;
+    position: absolute;
+    width: 50vw;
+    top:122vh;
+    left:10vw;
+}
+
+div.stats {
+    display: block;
+    position: absolute;
+    width: 25vw;
+    top:110vh;
+    left:65vw;
+    border : 2px solid $couleur-primaire;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    min-height: 30vh;
+    font-size: 1.2em;
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .titres {
+        margin-top: 3vh;
+        b {
+            font-size: 1.1;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+.button.muanza {
+    display: none;
+}
+
+.contenu {
+    min-height: 300vh;
+}

@@ -1,0 +1,116 @@
+
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+
+@mixin muanza-padding-horizontal {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.muanza-image-arriere {
+    background-image: url('../../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.muanza-image-arriere2 {
+    background-image: url('../../../../assets/img/etoolesenfants.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.souligne {
+    border-bottom: 0px solid $couleur-primaire;
+}
+
+.slide {
+    .muanza-block {
+        height: 100vh;
+        h1 {
+            padding-top: 7vh;
+            font-weight: bolder;
+            @include muanza-padding-horizontal;
+            font-size: 4.0em;
+
+            &.titre {
+                padding-top: 20vh;
+                font-size: 7.2em;
+            }
+
+            @media screen and (max-width: 599px) {
+                font-size: 1.5em;
+
+                &.titre {
+                    font-size: 2.5em;
+                }
+            }
+        }
+    }
+}
+
+.muanza-block {
+    padding-top: 20vh;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    padding: 10vmin;
+    padding-bottom: 20vmin;
+
+    &.muanza-gris {
+        background-color: #eee;
+    }
+
+    &.muanza-noir {
+        background-color: #000;
+        color: #fff;
+    }
+
+    &.muanza-primary {
+        background-color: greenyellow;
+    }
+
+    h1 {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .muanza-button {
+        margin-left: 30vw;
+        margin-right: 30vw;
+
+        @media screen and (max-width: 599px) {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+
+        font-size: 1.8em;
+        text-align: center;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        padding-bottom: 15px;
+        cursor: pointer;
+        border: 2px solid #fff;
+        transform: scale(1);
+        color: #fff;
+        transition-property: transform;
+        transition-duration: 200ms;
+
+        &:hover {
+            transform: scale(1.05);
+            color: $couleur-primaire;
+            border-color: $couleur-primaire;
+        }
+    }
+}
+
+.muanza-padding-horizontal {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.emphase {
+    font-size: 1.95em; 
+}

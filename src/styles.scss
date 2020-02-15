@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+
+.button.muanza {
+    background-color: $couleur-primaire;
+    color: #fff;
+    border-color: $couleur-primaire;
+    transition: background-color 200ms, letter-spacing 200ms;
+
+    &:hover {
+        background-color: darken($couleur-primaire, 5%) ;
+        border-color: darken($couleur-primaire, 5%) ;
+        letter-spacing: 0.5px;
+    }
+}
+
+
+h6 {
+    &+div{
+        display: none;
+    }
+}

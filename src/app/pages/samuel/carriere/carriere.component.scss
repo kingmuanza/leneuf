@@ -1,0 +1,67 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+.contenu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.racontage {
+    margin-top: 5vh;
+}
+
+.entete {
+    background-color: rgba($couleur-primaire, 0.8);
+    height: 50vh;
+    margin-top: -50vh;
+}
+
+.image-arriere {
+    height: 50vh;
+    background-image: url('../../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carriere {
+
+    .interieur {
+        height: 90vh;
+        overflow: hidden;
+    }
+    border: 1px solid #777;
+    padding: 20px; 
+    background-color: #fff;
+
+    h2 {
+        margin-top: 0;
+        text-transform: uppercase;
+        b {
+            padding-bottom: 5px;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+    
+    .souligne {
+        border-bottom: 4px solid $couleur-primaire;
+        width: 40%;
+    }
+}
+
+.button.muanza {
+    background-color: $couleur-primaire;
+    color: #fff;
+    border-color: $couleur-primaire;
+}
+
+
+
+.stats {
+    margin-top: -15px; 
+    margin-bottom: 15px;
+    line-height: 1.2;
+}

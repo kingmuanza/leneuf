@@ -1,0 +1,98 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%);
+$couleur1: darken($couleur-primaire, 30%);
+$couleur2: darken($couleur-primaire, 20%);
+$couleur3: darken($couleur-primaire, 10%);
+
+.bg1 {
+    background-color: $couleur1;
+}
+
+.bg2 {
+    background-color: $couleur2;
+}
+.bd2 {
+    border: 1px solid #3a660e;
+}
+.fg2 {
+    color: $couleur2;
+}
+
+.bg3 {
+    background-color: $couleur3;
+}
+.fg3 {
+    background-color: $couleur3;
+}
+.bd3 {
+    border-color: $couleur3;
+}
+
+.contenu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.racontage {
+    margin-top: 0vh;
+}
+
+.entete {
+    background-color: rgba($couleur-primaire, 0.8);
+    height: 35vh;
+    margin-top: -35vh;
+}
+
+.image-arriere {
+    height: 35vh;
+    background-image: url('../../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mot {
+
+    .cell-lg-4 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .image {
+        height: 120vh;
+        background-image: url('../../../../assets/img/etiooalone.webp');
+        background-size: cover;
+    }
+
+    .texte {
+        padding-left: 0vw;
+        padding-right: 5vw;
+        padding-bottom: 5vh;
+    }
+
+}
+
+.activites {
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+
+    p {
+        margin-bottom: 5vh;
+    }
+
+    .cell-lg-4 {
+        .activite {
+            margin-right: 2vmax;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            font-weight: bolder;
+            height: 50vh;
+            border: 1px solid;
+        }
+    }
+}

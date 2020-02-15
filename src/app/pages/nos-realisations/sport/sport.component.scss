@@ -1,0 +1,67 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%);
+;
+
+.contenu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.racontage {
+    margin-top: 5vh;
+}
+
+.entete {
+    background-color: rgba($couleur-primaire, 0.8);
+    height: 35vh;
+    margin-top: -35vh;
+}
+
+.image-arriere {
+    height: 35vh;
+    background-image: url('../../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mot {
+
+    .cell-lg-4 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .image {
+        height: 120vh;
+        background-image: url('../../../../assets/img/etiooalone.webp');
+        background-size: cover;
+    }
+
+    .texte {
+        padding-left: 0vw;
+        padding-right: 5vw;
+        padding-bottom: 5vh;
+    }
+
+}
+
+.projets {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.projet {
+    margin-top: 0vh;
+    margin-bottom: 7vh;
+    margin-right: 1vw;
+    margin-left: 0vw;
+
+    .texte {
+        color: #999; margin-top: -10px; padding-bottom: 20px;
+        border-bottom: 2px solid #444;
+    }
+}

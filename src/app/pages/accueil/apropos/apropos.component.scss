@@ -1,0 +1,43 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+
+.image-arriere {
+    height: 100vh;
+    overflow: hidden;
+    
+    .image {
+        height: 100vh;
+        background-image: url('../../../../assets/img/nb.JPG');
+        background-size: cover;
+        background-position: center center;
+        transition: transform 300ms;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.contenu {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+}
+
+.cell-lg-6 {
+    padding: 0;
+    margin: 0;
+}
+
+.button.muanza {
+    background-color: $couleur-primaire;
+    color: #fff;
+    border-color: $couleur-primaire;
+    transition: background-color 200ms, letter-spacing 200ms;
+
+    &:hover {
+        background-color: darken($couleur-primaire, 5%) ;
+        border-color: darken($couleur-primaire, 5%) ;
+        letter-spacing: 0.5px;
+    }
+}

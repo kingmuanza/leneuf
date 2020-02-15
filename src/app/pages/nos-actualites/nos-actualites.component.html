@@ -1,0 +1,598 @@
+<div *ngIf="!id" class="image-arriere">
+
+</div>
+<div *ngIf="!id" class="entete contenu">
+    <h1 class="fg-white" style="margin-top:10vh">
+        <b style="text-transform: uppercase; font-size: 1.2em;">
+            Actualités
+        </b>
+    </h1>
+</div>
+<app-actualites *ngIf="!id" [nombre]="20"></app-actualites>
+<div *ngIf="id" style=" margin-bottom: -10px;">
+    <div style="padding-top: 50px;  margin-bottom: 0;">
+        <div class="row" style="margin-top: 3h; margin-bottom: 0;">
+            <div *ngIf="id==='1'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-3">
+                            <div class="harvard" style="height: 100%;">
+
+                            </div>
+                        </div>
+                        <div class="cell-lg-9">
+                            <div class="muanza-padding" style="">
+                                <h4>
+                                    Eto'o à Harvard
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    Samuel Eto’o a récemment raccroché les crampons, mais dans son cas on ne peut parler
+                                    de retraite au sens oisif du terme. L’ancien buteur du Barça est un homme qui
+                                    restera toujours très occupé, tel qu’il l’a confié au magazine Jeune Afrique.
+                                    <br>
+                                    <br>
+                                    En éffet, Eto’o a décidé d’apprendre sur les bancs de l’une, sinon la plus
+                                    prestigieuse université américaine voire du globe : la bostonienne, Harvard. « Je
+                                    vais vivre à Boston pendant presque un an pour ça. Ce ne sera pas facile, mais c’est
+                                    un beau défi et vous savez que j’aime toujours me lancer des défis », confirme
+                                    l’ancien footballeur, aujourd’hui âgé de 38 ans.
+                                    <br>
+                                    <br>
+                                    Ainsi Samuel Eto’o décide de reprendre le chemin de l’école afin de mieux s’investir
+                                    dans le milieu des affaires.
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='2'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-9">
+                            <div class="muanza-padding">
+                                <h4>
+                                    AMBASSADEUR DU MONDIAL 2022 AU QUATAR
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    L'ancien capitaine des Lions Indomptables, Samuel Eto'o a été désigné nouvel
+                                    ambassadeur de la coupe du monde 2022 qui se tiendra au Qatar. Il s'agit d'une
+                                    nouvelle distinction pour un homme aussi influant dans le football.
+                                    <br>
+                                    <br>
+                                    L'ex-attaquant du Barça rejoint ainsi son ancien coéquipier au FC Barcelone Xavi
+                                    Hernandez et l’ancien international camerounais Roger Milla donc le comité de mise
+                                    en candidature de Qatar 2022.
+                                    <br>
+                                    <br>
+                                    "Je me réjouis de travailler avec Road 2022 en tant qu’ambassadeur officiel", s'est
+                                    réjoui le fils de Douala sur son compte Instagram.
+                                    <br>
+                                    <br>
+                                    « La coupe du monde de la Fifa occupe une place particulière dans mon cœur et je
+                                    suis ravi d’avoir un rôle dans la première coupe arabe. Je soutiendrai le Qatar en
+                                    travaillant sur les étapes importantes du tournoi, avec un intérêt particulier dans
+                                    le domaine des droits des travailleurs », a-t-il promis.
+                                    <br>
+                                    <br>
+                                    À 38 ans, l’ancien capitaine des Lions indomptables va éventuellement terminer sa
+                                    carrière au Qatar en 2020. « J’arrête ma carrière en 2020, à l’âge de 39 ans »,
+                                    a-t-il martelé.
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://www.youtube.com/watch?v=MvWF2K8a30E">
+                                        Regarder la vidéo
+                                    </a>
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-lg-3">
+                            <div class="qatar" style="height: 100%;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='10'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-12" style="padding: 0; margin: 0;">
+                            <div class="paludisme" style="height: 100%;">
+                                <iframe width="1200" height="665" src="https://www.youtube.com/embed/sDPdkxn7Kas"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="cell-lg-12">
+                            <div class="muanza-padding">
+                                <h4>
+                                    ETO’O ET LE FOND MONDIAL CONTRE LE PALUDISME
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    Durant son enfance au Cameroun, le footballeur Samuel Eto’o a contracté le
+                                    paludisme, maladie qui a emporté plusieurs de ses amis. Chaque année, plus de 438
+                                    000 personnes meurent du paludisme, et la vaste majorité de ces victimes sont des
+                                    enfants. Eto’o a vaincu le paludisme et est plus tard devenu le footballeur le plus
+                                    décoré de l’histoire de l’Afrique.
+                                    <br>
+                                    La lutte contre le paludisme est l’une des plus grandes réussites du 21e siècle.
+                                    Depuis 2000, le nombre de décès d’enfants de moins de 5 ans a baissé de 60 pour
+                                    cent, ce qui représente selon les estimations 6,1 millions de décès évités au sein
+                                    de cette tranche d’âge vulnérable. « Le paludisme ne m’a pas vaincu. Ne le laissons
+                                    pas en vaincre d’autres », affirme Eto’o, qui s’est engagé aux côtés du Fonds
+                                    mondial en porte-drapeau de la lutte contre le sida, la tuberculose et le paludisme.
+                                    Ensemble, nous pouvons en finir pour de bon avec le paludisme et donner à des
+                                    millions d’enfants supplémentaires l’occasion de grandir et de réaliser leurs rêves.
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='3'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-3">
+                            <div class="fpse" style="height: 100%;">
+
+                            </div>
+                        </div>
+                        <div class="cell-lg-9">
+                            <div class="muanza-padding">
+                                <h4>
+                                    FPSE LUTTE CONTRE LE YELLOW BLU RESSORT
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    Depuis mars 2015, Samuel Eto'o a lancé "Yellow Whistle Blower FC", une initiative de
+                                    collecte de fonds afin de venir en aide aux victimes de Boko Haram.
+                                    <br>
+                                    <br>
+                                    Samuel Eto'o ne consacre pas sa vie uniquement au football. Loin de là. Le
+                                    Camerounais a organisé une soirée de charité à Londres afin de lever des fonds pour
+                                    des camps de réfugiés au Cameroun et au Nigéria.
+                                    <br>
+                                    <br>
+                                    Lors de cette soirée, des enchères ont permis de récolter près de 139 000€ (un
+                                    entraînement privé avec le footballeur camerounais était notamment en jeu). Un
+                                    événement qui fait partie de l'opération lancée par Eto'o en mars dernier : le
+                                    "Yellow Whistle Blower FC".
+                                    <br>
+                                    <br>
+                                    Selon le Haut-Commissariait aux réfugiés à Londres, partenaire de la fondation de
+                                    Samuel Eto'o, plus de deux millions de Camerounais ont dû fuir leur domicile, 170
+                                    000 d'entre eux devant même franchir la frontière pour échapper à Boko Haram. Une
+                                    situation qui alarme fortement Samuel Eto'o, plus que jamais déterminé à aider cette
+                                    population, comme il le dit au Guardian :
+                                    Mon Cameroun est en danger, le Niger est touché, le Tchad est menacé. Il y a des
+                                    gens comme vous et moi qui ont tout perdu du jour au lendemain. C'est triste, mais
+                                    je refuse de désespérer, parce que désespérer, c'est refuser de vivre.
+                                    Une initiative soutenue par de nombreux footballeurs, qui se sont affichés avec un
+                                    sifflet jaune dans la bouche, symbole de cette initiative.
+                                    <br>
+                                    <br>
+                                    D'Eden Hazard à John
+                                    Terry, en passant par les retraités italiens Vieiri et Matterazzi, les soutiens sont
+                                    nombreux et de marques.
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://youtu.be/DsuqXIoHGJI">
+                                        Regarder la prémière vidéo
+                                    </a>
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://youtu.be/NuLizp-IBdQ">
+                                        Regarder la vidéo
+                                    </a>
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='4'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-4" style="padding: 0; margin-top: 0;">
+                            <img src="../../../assets/img/tolerance.jpg" style="width: 100%;">
+                            <img src="../../../assets/img/tolerance2.png" style="width: 100%;">
+                        </div>
+                        <div class="cell-lg-8">
+                            <div class="muanza-padding">
+                                <h4>
+                                    ETO’O, premier Sportif à recevoir la médaille de Tolérance
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    <b>
+
+                                        Le footballeur camerounais Samuel Eto’o a reçu la Médaille Européenne de la
+                                        Tolérance il y a quelques jours à Londres. Une manière de le récompenser pour sa
+                                        lutte contre le racisme.
+                                    </b>
+                                    <br>
+                                    <br>
+                                    C’était lors d’une soirée de gala organisée en Angleterre par le Conseil Européen
+                                    pour la Tolérance et la Réconciliation. Lundi soir à Londres, Samuel Eto’o a tout
+                                    d’abord donné une conférence de presse aux nombreux medias présents.
+                                    La cérémonie en elle-même a eu lieu à « l’Orangerie » du Kensington Palace de
+                                    Londres. Plusieurs personnalités se sont succédées au micro pour parler de lutte
+                                    contre les discriminations, présenter la récompense et honorer Samuel Eto’o.
+                                    Un petit film a été projeté, pour évoquer le combat contre le racisme et la
+                                    discrimination du récipiendaire. On a pu ainsi entendre des témoignages de Léo
+                                    Messi, Didier Drogba ou de Victor Valdes.
+                                    <br>
+                                    <br>
+                                    Les images de Samuel Eto’o voulant quitter le terrain lors d’incidents racistes à
+                                    Saragosse ont arraché des applaudissements de soutien des invités dans la salle.
+                                    La Médaille Européenne de la Tolérance a ensuite été décernée conjointement au
+                                    réseau FARE, une organisation active dans le combat contre la discrimination. Son
+                                    président Howard Holmes a fait un discours avant d’appeler Samuel Eto’o qui a alors
+                                    reçu son trophée.
+                                    <br>
+                                    <br>
+                                    Le nouveau joueur de la Sampdoria de Gênes a alors préféré laisser tomber son
+                                    discours écrit pour raconter son expérience.
+                                    <br>
+                                    <br>
+                                    Eto’o a évoqué en premier « les moments difficiles » que traversent son pays le
+                                    Cameroun. « J’apporte mon soutien à notre Armée, qui combat aux côtés d’autres
+                                    armées de la sous-région ». Son soutien va également aux populations déplacées du
+                                    Nord victimes de cette guerre.
+                                    <br>
+                                    <br>
+                                    Avec sa fondation, le footballeur a décidé de « lancer une action pour soutenir les
+                                    personnes qui ont perdu des maisons, des membres de famille, et leur redonner le
+                                    sourire ». Eto’o a demandé l’aide « du « maximum de personnes » pour participer avec
+                                    lui « pour tous lutter contre ce fléau ».
+                                    <br>
+                                    <br>
+                                    L’ancien capitaine des Lions du Cameroun a continué avec les notions de bonheur,
+                                    d’amour et de respect qu’il a pu partager avec les grands joueurs de football
+                                    croisés durant sa carrière, débutée au Réal de Madrid:
+                                    Eden Hazard, Kolo Touré et Deco, présents dans l’assistance, Didier Drogba, Lionel
+                                    Messi et bien d’autres vus dans le petit film projeté. « Au-delà du résultat en
+                                    football, il y a l’amour et le respect parce que nous partageons un moment de
+                                    bonheur ensemble ».
+                                    <br>
+                                    <br>
+                                    « Il est plus facile d’aimer que de haïr »
+                                    En reparlant du fameux match Saragosse Barcelone teinté d’incidents racistes, Eto’o
+                                    a indiqué : « Il y a des gens qui ont une autre vision de la vie, celle de la
+                                    division et de la haine ». Avant d’entamer le diner, le footballeur a ajouté :
+                                    « A chaque fois que j’ai été victime, je l’ai toujours dénoncé ». Eto’o a également
+                                    évoqué les differents mélanges raciaux dans sa famille, mélanges que « certains
+                                    combattent ».
+                                    <br>
+                                    <br>
+                                    ‪‬Ce prix est le troisième décerné par l’ECTR depuis sa création en 2008. En
+                                    succédant aux anciens lauréats, les politiciens Sa Majesté Juan Carlos 1er, Roi
+                                    d’Espagne et Ivo Josipović, Président de la Croatie, Eto’o devient le premier
+                                    sportif primé.‬‬
+                                    <br>
+                                    <br>
+                                    Cette médaille de la Tolérance est généralement décernée à des personnes, groupes de
+                                    personnes, organisations gouvernementales ou non pour leurs œuvres dans la tolérance
+                                    et la réconciliation sur le continent européen. Le Conseil Européen (ECTR) honore
+                                    ceux qui luttent contre la xénophobie, l’anti-sémitisme, l’extrémisme politique et
+                                    les crimes haineux.
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://www.youtube.com/watch?v=h7iRyVRK9xk">
+                                        Regarder la vidéo
+                                    </a>
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='5'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-3">
+                            <div class="gala" style="height: 100%;">
+
+                            </div>
+                        </div>
+                        <div class="cell-lg-9">
+                            <div class="muanza-padding">
+                                <h4>
+                                    GALA Fondation SAMUEL ETO’O EN AVRIL 2018
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    <b>
+
+                                        Jeudi soir, la présentatrice de L'amour Karine Le Marchand est dans le pré s'est
+                                        rendue au Petit Palais pour le gala de la fondation de Samuel Eto'o. Le
+                                        footballeur
+                                        camerounais a également pu compter sur le soutien de Kendji Girac et d'amis
+                                        confrères.
+                                    </b>
+                                    <br>
+                                    <br>
+                                    De nombreuses soirées caritatives rythment l'agenda des stars ! La dernière en date
+                                    a eu lieu ce jeudi 5 avril 2018, à Paris. Karine Le Marchand, l'actrice Hafsia Herzi
+                                    et Djibril Cissé y ont assisté, manifestant leur soutien à la fondation de Samuel
+                                    Eto'o...
+                                    <br>
+                                    <br>
+                                    La fondation de Samuel Eto'o a vu le jour en 2006 et se présente comme un centre
+                                    d'éducation et de sensibilisation à la protection de l'environnement. Ce jeudi 5
+                                    avril 2018, elle a convié au Petit Palais, dans le 8e arrondissement de Paris,
+                                    plusieurs célébrités à assister à un gala. La ministre des Sports et ex-escrimeuse
+                                    Laura Flessel-Colovic faisait partie des invités. Elle y a retrouvé une Karine Le
+                                    Marchand sobre et chic, tout de noir vêtu.
+                                    <br>
+                                    <br>
+                                    Comme la présentatrice de L'amour est dans le pré, l'actrice Hafsia Herzi (à
+                                    l'affiche de L'amour des hommes et Féminin plurielles), accompagnée de la
+                                    présentatrice sportive Shaheen Malik, les footballeurs Djibril Cissé et Dani Alves,
+                                    ex-coéquipier d'Eto'o au Barca, ainsi que le basketteur Boris Diaw ont répondu
+                                    favorablement à l'invitation de la fondation du footballeur camerounais.
+                                    <br>
+                                    <br>
+                                    Le chanteur Kendji Girac et le rappeur MHD étaient également de la partie.
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='6'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-4" style="margin: 0; padding: 0;">
+                            <div class="interne">
+                                <div data-role="carousel" data-cls-bullet="bullet-big" data-auto-start="true"
+                                    data-controls="false" data-bullets="false" data-cls-controls="fg-white"
+                                    data-bullets-position="right" data-duration="500" data-period="3000"
+                                    data-height="4/3"
+                                    data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+                                    data-control-prev="<span class='mif-chevron-left fg-cyan'></span>">
+
+                                    <div class="slide" data-cover="../../../../assets/img/ivoire.png"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/ivoire2.png"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/ivoire3.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-lg-8" style="height: 150vh; overflow-y: auto;">
+                            <div class="muanza-padding">
+                                <h4>
+                                    SAMUEL ETO’O EXPLIQUE SES PROJETS AUX DEPUTES IVOIRIENS
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    Le président de l`Assemblée Nationale, Guillaume Soro et le footballeur
+                                    international Samuel Eto`o ont eu une séance de travail ce lundi, à l`hémicycle en
+                                    présence de plusieurs députés.
+                                    <br>
+                                    <br>
+                                    Le footballeur international camerounais était l'invité de l'hémicycle ivoirien.
+                                    C'était ce lundi 18 juin, à la rotonde de l'Assemblée nationale. Où Samuel Eto'o
+                                    était face aux députés ivoiriens de la Commission des affaires sociales et
+                                    culturelles de l'institution.
+                                    <br>
+                                    <br>
+                                    Une séance de travail qui a duré un peu plus d'une heure. C'est le président de
+                                    l'institution, Guillaume Soro, conformément aux civilités d'usage, qui a introduit
+                                    devant ses pairs députés, la star africaine. « Nous avons devant nous un valeureux
+                                    footballeur africain. Mais, sa réputation va désormais au-delà du monde du
+                                    football...», a salué Guillaume Soro.
+                                    <br>
+                                    <br>
+                                    Pour le moins qu’on puisse dire c'est une grande première de voir un sportif de haut
+                                    niveau venir échanger avec des députés. Mieux, d’exposer et partager ses projets
+                                    pour la jeunesse africaine avec des parlementaires d'un pays. Le footballeur a
+                                    profité de l’occasion à lui offerte par Guillaume Soro, président de l’Assemblée
+                                    nationale, pour annoncer qu’il compte réaliser très bientôt des projets majeurs en
+                                    Côte d’Ivoire.
+                                    <br>
+                                    <br>
+                                    Organisation de l’évènement Eto’o charity match piloté par la Fondation privée
+                                    Samuel Eto’o en Côte d’Ivoire. Et ce, à la faveur de la prochaine Coupe d’Afrique
+                                    des nations (Can) de football de 2021 en Côte d’Ivoire. Construction prochaine d’une
+                                    école primaire. Tels sont les projets parmi tant d’autres que «le beau» Samuel
+                                    compte réaliser dans le pays de sa belle-famille.
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://www.youtube.com/watch?v=6JS7C5rJr6Y&feature=youtu.be">
+                                        Regarder la prémière vidéo
+                                    </a>
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://www.youtube.com/watch?v=JewcFZOH628&feature=youtu.be">
+                                        Regarder la vidéo
+                                    </a>
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='7'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-9">
+                            <div class="muanza-padding">
+                                <h4>
+                                    LA FONDATION AU CHEVET DE NOBERT OWONA
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    Nobert Owona, sans le moindre sou et très malade, a reçu l’aide de LA fondation,
+                                    sous l’égide de son président Samuel Eto’o Fils. Le capitaine intérimaire du
+                                    Cameroun après la CAN 1972 exprime toute sa reconnaissance envers l’attaquant du
+                                    Qatar SC qui s’est personnellement déplacé pour venir l’aider.
+                                    <br>
+                                    <br>
+                                    Prise en charge jeudi dernier, Nobert Owana va mieux et ne cesse de manifester sa
+                                    gratitude: «Dimanche dernier, j’ai eu la surprise de ma vie. Samuel Eto’o était venu
+                                    me rendre visite. Après son premier match au Qatar, il a pris l’avion pour venir à
+                                    mon chevet. Un grand homme qui ne m’avait jamais connu.
+                                    <br>
+                                    <br>
+                                    Il m’a laissé une somme de 500.000 FCFA pour les besoins alimentaires. Et il a dit
+                                    que s’il y a n’importe quel besoin, il est prêt à mettre la main dans la poche. Il
+                                    m’a aussi promis une maison à Bonamoussadi… » a-t-il déclaré.
+                                    <br>
+                                    <br>
+                                    Norbert Owona, ancien joueur de L’union Sportive de Douala, et ex-capitaine
+                                    intérimaire des Lions Indomptables du Cameroun après la Coupe d’Afrique des Nations
+                                    de 1972, était devenu un sans abri dans les rues de Douala, après la destruction de
+                                    son domicile.
+                                    <br>
+                                    <br>
+                                    Le goleador camerounais Samuel Eto’o Fils, à travers sa Fondation, devrait lui
+                                    permettre d’avoir un domicile digne de ce nom au quartier Bonamoussadi à Douala, dès
+                                    sa sortie. Une histoire triste qui s’achève bien en somme.
+
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-lg-3">
+                            <div class="nobert" style="height: 100%;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='8'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-12" style="margin: 0; padding: 0;">
+                            <div class="interne">
+                                <div data-role="carousel" data-cls-bullet="bullet-big" data-auto-start="true"
+                                    data-controls="false" data-bullets="false" data-cls-controls="fg-white"
+                                    data-bullets-position="right" data-duration="500" data-period="3000"
+                                    data-height="4/3"
+                                    data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+                                    data-control-prev="<span class='mif-chevron-left fg-cyan'></span>">
+
+                                    <div class="slide" data-cover="../../../../assets/img/etoolesenfants.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/f1.png"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/f2.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-lg-12">
+                            <div class="muanza-padding">
+                                <h4>
+                                    LA LEGENDE SAMUEL ETO’O ET LA FONDATION FIFA
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    La Fondation FIFA va soutenir 93 projets sociaux à travers le monde
+                                    <br>
+                                    <br>
+
+                                    "Le pouvoir du football est sans limite. Ensemble, nous devons saisir cette occasion
+                                    pour remédier à d’autres problèmes et aider chacun à se sentir intégré." Ces propos
+                                    ont été tenus par la FIFA Legend Samuel Eto’o à l’issue d’une séance d’entraînement
+                                    en compagnie d’un groupe de jeunes réfugiés dans son pays d’origine, le Cameroun.
+                                    Comme beaucoup d’autres associations à travers le monde, Red Deporte Cameroun fait
+                                    partie du programme communautaire de la Fondation FIFA. Une fois par an, la
+                                    Fondation invite de prestigieuses associations à but non-lucratif à demander un
+                                    financement pour mettre le football au service de la lutte contre les problèmes
+                                    sociaux qui touchent les jeunes.
+                                    <br>
+                                    <br>
+                                    La Fondation a dévoilé aujourd'hui une liste de 93 organisations qui bénéficieront
+                                    de son soutien en 2019, pour un budget total de plus d’USD 3,1 millions. Le spectre
+                                    des initiatives sociales soutenues par la Fondation se veut aussi large que possible
+                                    : éducation, santé, paix, réfugiés, leadership ou encore égalité des sexes.
+                                    <br>
+                                    <br>
+                                    Au Cameroun, Red Deporte vient en aide aux réfugiés touchés par la guerre civile en
+                                    République centrafricaine. Ses programmes mettent l’accent sur l’égalité des sexes,
+                                    la santé et les questions environnementales. Le projet comprend notamment des
+                                    sessions éducatives sur la santé, inspirées par le football. Le VIH/SIDA et la
+                                    question de l’assainissement, de l’eau et de l’hygiène sont évoqués au cours de ces
+                                    séances. Les bénéficiaires reçoivent également des produits d’hygiène de base, ainsi
+                                    que des moustiquaires.
+                                    <br>
+                                    <br>
+                                    En visite au centre Don Bosco de Yaoundé (Cameroun), Samuel Eto’o a pu constater que
+                                    le football reste plus que jamais un outil efficace pour donner de l’espoir et
+                                    enseigner des compétences sociales aux communautés défavorisées.
+                                    <br>
+                                    <br>
+                                    "Le football est une école de la vie. Ces jeunes peuvent changer leur avenir. Avec
+                                    la FIFA et d’autres organisations, nous leur apportons des conseils. J’espère que
+                                    cet échange va leur donner des idées. Je veux qu’ils se disent : ‘Si notre "père",
+                                    notre aîné, Samuel a réussi dans la vie, pourquoi pas nous ?’" Le quadruple Joueur
+                                    africain de l’année a participé à un entraînement avec les enfants à Yaoundé, avant
+                                    de dédicacer les maillots de tous les participants. Avec un tel cadeau à la clé, nul
+                                    doute que les jeunes n’oublieront pas cette journée de sitôt !
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
+                                        href="https://www.youtube.com/watch?v=wJaI6zDk404">
+                                        Regarder la vidéo
+                                    </a>
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

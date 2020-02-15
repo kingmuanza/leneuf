@@ -1,0 +1,69 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%);
+;
+
+.contenu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.equpe-contenu, .muanza-image-conteneur {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.racontage {
+    margin-top: 5vh;
+}
+
+.entete {
+    background-color: rgba($couleur-primaire, 0.8);
+    height: 35vh;
+    margin-top: -35vh;
+}
+
+.image-arriere {
+    height: 35vh;
+    background-image: url('../../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mot {
+
+    .cell-lg-4 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .image {
+        height: 120vh;
+        background-image: url('../../../../assets/img/etiooalone.webp');
+        background-size: cover;
+    }
+
+    .texte {
+        padding-left: 0vw;
+        padding-right: 5vw;
+        padding-bottom: 5vh;
+    }
+
+}
+
+.muanza-image {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid $couleur-primaire;
+    margin-bottom: 10px;
+}
+
+.muanza-texte {
+    text-align: center;
+    h4 {
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+    }
+}

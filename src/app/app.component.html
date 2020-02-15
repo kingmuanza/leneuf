@@ -1,0 +1,61 @@
+<header class="app-bar fg-dark bg-white shadow-1" data-role="appbar" data-expand-point="md">
+  <a href="" class="d-block brand fg-dark no-hover">
+    <img class="logo" src="../assets/img/logo.webp" style="">
+  </a>
+  <ul class="app-bar-menu ml-auto">
+    <li>
+      <a routerLink="accueil" routerLinkActive="active">
+        Accueil
+      </a>
+    </li>
+    <li>
+      <a routerLink="fondation" routerLinkActive="active" class="dropdown-toggle">Fondation</a>
+      <ul class="d-menu" data-role="dropdown">
+        <li><a routerLink="fondation/mot">Mot du président</a></li>
+        <li><a routerLink="fondation/presentation">Présentation</a></li>
+        <li><a routerLink="fondation/equipe">Equipe</a></li>
+        <li><a routerLink="fondation/contact">Contact</a></li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="actualites" routerLinkActive="active" >Actualités</a>
+    </li>
+    <li>
+      <a routerLink="realisations" routerLinkActive="active" class="dropdown-toggle">Réalisations</a>
+      <ul class="d-menu" data-role="dropdown">
+        <li><a (click)="realisations('communautaire')">Développement communautaire</a></li>
+        <li><a (click)="realisations('survie')">Survie et croissance de l'enfant</a></li>
+        <li><a (click)="realisations('sante')">Santé</a></li>
+        <li><a (click)="realisations('education')">Education</a></li>
+        <li><a (click)="realisations('sport')">Sport</a></li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="projets" routerLinkActive="active">Nos projets</a>
+    </li>
+    <li>
+      <a routerLink="evenements" routerLinkActive="active" >Evènements</a>
+    </li>
+    <li>
+      <a routerLink="samuel" routerLinkActive="active" class="dropdown-toggle">Samuel Eto'o</a>
+      <ul class="d-menu" data-role="dropdown">
+        <li><a (click)="samuel('enfance')">Enfance</a></li>
+        <li><a (click)="samuel('famille')">Vie de famille</a></li>
+        <li><a (click)="samuel('carriere')">Carrière en club</a></li>
+        <li><a (click)="samuel('lions')">Lions indomptables</a></li>
+      </ul>
+    </li>
+    <li>
+      <a routerLink="partenaires" routerLinkActive="active" >Partenaires</a> 
+    </li>
+    <!--
+    <li>
+      <a routerLink="soutenir" routerLinkActive="active" >Nous soutenir</a>
+    </li>
+    --->
+  </ul>
+</header>
+
+<router-outlet (activate)="onActivate($event)"></router-outlet>
+
+<app-footer></app-footer>

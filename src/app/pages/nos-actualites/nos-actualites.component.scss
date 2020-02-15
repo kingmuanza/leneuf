@@ -1,0 +1,141 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%);
+;
+
+.contenu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.racontage {
+    margin-top: 5vh;
+}
+
+.entete {
+    background-color: rgba($couleur-primaire, 0.8);
+    height: 35vh;
+    margin-top: -35vh;
+}
+
+.image-arriere {
+    height: 35vh;
+    background-image: url('../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%);
+;
+
+.contenu {
+    padding-top: 5vh;
+    padding-bottom: 0vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.actualite {
+    margin-left: 0px;
+    margin-right: 0px;
+
+    .row {
+        .cell-lg-3 {
+            height: 120vh;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cell-lg-9 {
+            margin: 0;
+            padding: 0;
+            height: 120vh;
+            overflow-y: auto;
+            background-image: url('../../../assets/img/etoolesenfants.jpg');
+        }
+    }
+
+    overflow: hidden;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 1vh;
+    width: 80%;
+}
+.souligne {
+    border-top: 4px solid $couleur-primaire;
+    padding-bottom: 3vh;
+    width: 30%;
+}
+.text-leader2 {
+    font-size: 1em;
+}
+
+
+.button.muanza {
+    background-color: $couleur-primaire;
+    color: #fff;
+    border-color: $couleur-primaire;
+}
+
+.fpse {
+    background-image: url('../../../assets/img/fpse.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.gala {
+    background-image: url('../../../assets/img/gala.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.nobert {
+    background-image: url('../../../assets/img/norbert.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.fifa {
+    background-image: url('../../../assets/img/etoolesenfants.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.ivoire {
+    background-image: url('../../../assets/img/ivoire.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.tolerance {
+    background-image: url('../../../assets/img/tolerance.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.qatar {
+    background-image: url('../../../assets/img/projet_qatar.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.harvard {
+    background-image: url('../../../assets/img/harvard.JPG');
+    background-size: cover;
+    background-position: center center;
+}
+
+.muanza-padding {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 5vh;
+    background: linear-gradient(to right, rgba(255,255,255, 1), rgba(255,255,255, 0.99)); 
+    height: 100%;
+}

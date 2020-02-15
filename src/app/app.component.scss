@@ -1,0 +1,53 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 15%);
+;
+
+.logo {
+    height: 120%;
+    margin-top: -10px;
+    @media screen and (max-width: 599px) {
+        height: 100%;
+        margin-top: 0px;
+    }
+}
+
+.fg-primaire {
+    color: $couleur-primaire;
+    opacity: 0.5;
+}
+
+.noirblanc {
+    filter: grayscale(0.5);
+    opacity: 0.9;
+}
+
+ul {
+    li {
+        cursor: pointer;
+
+        a {
+            font-size: 1.1em;
+            font-weight: 100;
+            padding-bottom: 5px;
+
+            transition: letter-spacing 400ms;
+
+            &:hover {
+                background-color: lighten($couleur-primaire, 20%);
+                letter-spacing: 0.05em;
+                color: #fff;
+            }
+
+            &.active {
+                background-color: $couleur-primaire;
+                letter-spacing: 0.05em;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+header {
+    padding-bottom: 0px;
+}

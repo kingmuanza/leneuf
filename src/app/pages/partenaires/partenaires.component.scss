@@ -1,0 +1,32 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+.contenu {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.racontage {
+    margin-top: 5vh;
+}
+
+.entete {
+    background-color: rgba($couleur-primaire, 0.8);
+    height: 35vh;
+    margin-top: -35vh;
+}
+
+.image-arriere {
+    height: 35vh;
+    background-image: url('../../../assets/img/unicef.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.partenaires {
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}

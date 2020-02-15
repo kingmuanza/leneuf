@@ -1,0 +1,27 @@
+$couleur-primaire: #3a660e;
+$couleur-primaire: lighten($couleur-primaire, 10%) ;;
+
+.contenu {
+    height: 80vh;
+    background-color: #000;
+    color: #fff;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+i {
+    margin-right: 20px;
+}
+
+.formulaire {
+    div {
+        margin-bottom: 5px;
+    }
+}
+.button.muanza {
+    background-color: $couleur-primaire;
+    color: #fff;
+    border-color: $couleur-primaire;
+}
