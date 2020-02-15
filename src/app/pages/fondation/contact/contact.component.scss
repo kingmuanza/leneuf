@@ -23,3 +23,16 @@ $couleur-primaire: lighten($couleur-primaire, 10%) ;;
     background-size: cover;
     background-attachment: fixed;
 }
+.formulaire {
+    div {
+        margin-bottom: 5px;
+    }
+}
+.button.muanza {
+    background-color: $couleur-primaire;
+    color: #fff;
+    border-color: $couleur-primaire;
+}
+i {
+    margin-right: 20px;
+}

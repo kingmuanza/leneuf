@@ -139,3 +139,12 @@ h4 {
     background: linear-gradient(to right, rgba(255,255,255, 1), rgba(255,255,255, 0.99)); 
     height: 100%;
 }
+
+.muanza-video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 100;
+    margin: 20px;
+}

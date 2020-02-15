@@ -1,0 +1,32 @@
+<div class="contenu">
+    <div class="row" style="margin-top: 3h;">
+        <div *ngFor="let actualite of actualites; index as i;" class="cell-lg-6">
+            <div *ngIf="i < nombre" class="actualite shadow-1">
+                <div class="row">
+                    <div class="cell-lg-6">
+                        <div class="image-actualite" style="height: 100%;">
+                            <div class="image" (click)="openActualite(actualite)">
+                                <img [src]="actualite.image" style="min-height: 50vh; max-height: 60vh; min-width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell-lg-6">
+                        <div style="padding: 20px; text-align: center;">
+                            <h4>
+                                {{actualite.titre}}
+                            </h4>
+                            <p>
+                                {{actualite.contenu}}
+                            </p>
+                            <div style="margin-top: 3vh;">
+                                <button  (click)="openActualite(actualite)" class="button muanza">
+                                    En savoir plus
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

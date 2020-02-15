@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-evenements',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EvenementsComponent implements OnInit {
 
-  constructor() { }
+  id: string;
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
+    this.route.paramMap.subscribe((paramsMap) => {
+      const id = paramsMap.get('id');
+      if (id) {
+        this.id = id;
+      }
+
+    });
+  }
+
+  actualites() {
+    this.router.navigate(['actualites']);
   }
 
 }

@@ -34,6 +34,7 @@ import { SurvieComponent } from './pages/nos-realisations/survie/survie.componen
 import { MotPresiComponent } from './pages/fondation/mot-presi/mot-presi.component';
 import { ContactComponent } from './pages/fondation/contact/contact.component';
 import { ClubComponent } from './pages/samuel/club/club.component';
+import { EventsComponent } from './pages/evenements/events/events.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { ClubComponent } from './pages/samuel/club/club.component';
     SurvieComponent,
     MotPresiComponent,
     ContactComponent,
-    ClubComponent
+    ClubComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'realisations', component: NosRealisationsComponent },
   { path: 'realisations/:id', component: NosRealisationsComponent },
   { path: 'evenements', component: EvenementsComponent },
+  { path: 'evenements/:id', component: NosActualitesComponent },
   { path: 'partenaires', component: PartenairesComponent },
   { path: 'soutenir', component: SoutenirComponent },
   { path: 'samuel', component: SamuelComponent },

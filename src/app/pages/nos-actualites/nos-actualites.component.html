@@ -107,47 +107,6 @@
                     </div>
                 </div>
             </div>
-            <div *ngIf="id==='10'" class="cell-lg-12">
-                <div class="actualite shadow-1">
-                    <div class="row">
-                        <div class="cell-lg-12" style="padding: 0; margin: 0;">
-                            <div class="paludisme" style="height: 100%;">
-                                <iframe width="1200" height="665" src="https://www.youtube.com/embed/sDPdkxn7Kas"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="cell-lg-12">
-                            <div class="muanza-padding">
-                                <h4>
-                                    ETO’O ET LE FOND MONDIAL CONTRE LE PALUDISME
-                                </h4>
-                                <div class="souligne"></div>
-                                <p class="text-leader2 text-just">
-                                    Durant son enfance au Cameroun, le footballeur Samuel Eto’o a contracté le
-                                    paludisme, maladie qui a emporté plusieurs de ses amis. Chaque année, plus de 438
-                                    000 personnes meurent du paludisme, et la vaste majorité de ces victimes sont des
-                                    enfants. Eto’o a vaincu le paludisme et est plus tard devenu le footballeur le plus
-                                    décoré de l’histoire de l’Afrique.
-                                    <br>
-                                    La lutte contre le paludisme est l’une des plus grandes réussites du 21e siècle.
-                                    Depuis 2000, le nombre de décès d’enfants de moins de 5 ans a baissé de 60 pour
-                                    cent, ce qui représente selon les estimations 6,1 millions de décès évités au sein
-                                    de cette tranche d’âge vulnérable. « Le paludisme ne m’a pas vaincu. Ne le laissons
-                                    pas en vaincre d’autres », affirme Eto’o, qui s’est engagé aux côtés du Fonds
-                                    mondial en porte-drapeau de la lutte contre le sida, la tuberculose et le paludisme.
-                                    Ensemble, nous pouvons en finir pour de bon avec le paludisme et donner à des
-                                    millions d’enfants supplémentaires l’occasion de grandir et de réaliser leurs rêves.
-
-
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div *ngIf="id==='3'" class="cell-lg-12">
                 <div class="actualite shadow-1">
                     <div class="row">
@@ -216,11 +175,22 @@
             <div *ngIf="id==='4'" class="cell-lg-12">
                 <div class="actualite shadow-1">
                     <div class="row">
-                        <div class="cell-lg-4" style="padding: 0; margin-top: 0;">
-                            <img src="../../../assets/img/tolerance.jpg" style="width: 100%;">
-                            <img src="../../../assets/img/tolerance2.png" style="width: 100%;">
+                        <div class="cell-lg-12" style="padding: 0; margin-top: 0;">
+
+                            <div class="interne">
+                                <div data-role="carousel" data-cls-bullet="bullet-big" data-auto-start="true"
+                                    data-controls="false" data-bullets="false" data-cls-controls="fg-white"
+                                    data-bullets-position="right" data-duration="500" data-period="3000"
+                                    data-height="16/9"
+                                    data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+                                    data-control-prev="<span class='mif-chevron-left fg-cyan'></span>">
+
+                                    <div class="slide" data-cover="../../../../assets/img/tolerance3.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/tolerance2.png"></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="cell-lg-8">
+                        <div class="cell-lg-12">
                             <div class="muanza-padding">
                                 <h4>
                                     ETO’O, premier Sportif à recevoir la médaille de Tolérance
@@ -303,16 +273,17 @@
                                 </p>
 
                                 <div style="margin-top: 8vh;">
-                                    <a style="margin-right: 10px;" target="_blank" class="button bg-red fg-white bd-red"
-                                        href="https://www.youtube.com/watch?v=h7iRyVRK9xk">
-                                        Regarder la vidéo
-                                    </a>
                                     <button (click)="actualites()" class="button muanza">
                                         Revenir aux actualités
                                     </button>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="muanza-video">
+                        <iframe width="350" height="200" src="https://www.youtube.com/embed/h7iRyVRK9xk" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -374,6 +345,12 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="muanza-video">
+                        <iframe width="352" height="202" src="https://www.youtube.com/embed/DsuqXIoHGJI" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
             <div *ngIf="id==='6'" class="cell-lg-12">
@@ -391,6 +368,11 @@
                                     <div class="slide" data-cover="../../../../assets/img/ivoire.png"></div>
                                     <div class="slide" data-cover="../../../../assets/img/ivoire2.png"></div>
                                     <div class="slide" data-cover="../../../../assets/img/ivoire3.png"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/depute.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/depute2.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/depute3.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/depute4.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/depute5.jpg"></div>
                                 </div>
                             </div>
                         </div>
@@ -589,6 +571,178 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='9'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-12" style="padding: 0; margin-top: 0;">
+
+                            <div class="interne">
+                                <div data-role="carousel" data-cls-bullet="bullet-big" data-auto-start="true"
+                                    data-controls="false" data-bullets="false" data-cls-controls="fg-white"
+                                    data-bullets-position="right" data-duration="500" data-period="3000"
+                                    data-height="16/9"
+                                    data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+                                    data-control-prev="<span class='mif-chevron-left fg-cyan'></span>">
+
+                                    <div class="slide" data-cover="../../../../assets/img/camp1.png"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/camp2.jpg"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/camp3.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-lg-12">
+                            <div class="muanza-padding">
+                                <h4>
+                                    CAMPAGNE DE VACCINATION AVEC L’UNICEF AU CAMEROUN
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    <b>
+                                        Campagne de vaccination: Eto’o visite l’hôpital de Bonassama
+                                    </b>
+                                    <br>
+                                    <br>Samuel Eto’o fils était en visite ce vendredi à l’hôpital de district de
+                                    Bonassama. L’ancien capitaine des Lions indomptables s’y est rendu pour discuter
+                                    avec femmes, jeunes et autres personnes de bonne volonté, afin de lutter
+                                    efficacement contre les maladies infantiles évitables par la vaccination. Une visite
+                                    qui a marqué les esprits, tant l’ambassadeur du Fonds des Nations unies pour
+                                    l’enfance (UNICEF), a sensibilisé et mobilisé le monde en vue de vacciner un large
+                                    nombre d’enfants dans cette ère de santé.
+                                    <br>
+                                    <br>
+                                    Les images de Samuel Eto’o voulant quitter le terrain lors d’incidents racistes à
+                                    Saragosse ont arraché des applaudissements de soutien des invités dans la salle.
+                                    La Médaille Européenne de la Tolérance a ensuite été décernée conjointement au
+                                    réseau FARE, une organisation active dans le combat contre la discrimination. Son
+                                    président Howard Holmes a fait un discours avant d’appeler Samuel Eto’o qui a alors
+                                    reçu son trophée.
+                                    <br>
+                                    <br>
+                                    « Je vais vous inviter à toujours prendre soin de nous pour permettre à nos jeunes
+                                    frères et sœurs à commencer leurs rêves avec beaucoup de santé », a lancé
+                                    l’attaquant du club turc d’Antalyaspor, sous les acclamations. Avant de poursuivre:
+                                    « et vous chères mamans, donnez-nous toujours la force d’aller de l’avant. Et pour
+                                    nos petits frères, accordez-leur cette opportunité de devenir les hommes et femmes
+                                    de demain qui vont valablement nous représenter un peu partout à travers ce monde ».
+                                    <br>
+                                    <br>
+                                    Parallèlement, il a mouillé le maillot pour défendre la cause des femmes dans la
+                                    lutte contre le cancer du col de l’utérus. L’ex-pichichi s’est fait le temps de
+                                    cette cérémonie, mentor des équipes de vaccination qui administre les vaccins
+                                    inscrits dans le programme élargi de vaccination de routine aux enfants de 0 à 11
+                                    mois. En plus de l’importance de la vaccination, Samuel Eto’o a échangé avec les
+                                    femmes sur la promotion, la consolidation de la paix et du vivre-ensemble au
+                                    Cameroun. Le sujet est d’actualité. La crise anglophone qui secoue le pays ne laisse
+                                    visiblement personne indifférent !
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="muanza-video">
+                        <iframe width="350" height="205" src="https://www.youtube.com/embed/4jDMmtnuwoM" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="id==='10'" class="cell-lg-12">
+                <div class="actualite shadow-1">
+                    <div class="row">
+                        <div class="cell-lg-12" style="padding: 0; margin-top: 0;">
+
+                            <div class="interne">
+                                <div data-role="carousel" data-cls-bullet="bullet-big" data-auto-start="true"
+                                    data-controls="false" data-bullets="false" data-cls-controls="fg-white"
+                                    data-bullets-position="right" data-duration="500" data-period="3000"
+                                    data-height="16/9"
+                                    data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+                                    data-control-prev="<span class='mif-chevron-left fg-cyan'></span>">
+
+                                    <div class="slide" data-cover="../../../../assets/img/youth1.png"></div>
+                                    <div class="slide" data-cover="../../../../assets/img/youth2.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-lg-12">
+                            <div class="muanza-padding">
+                                <h4>
+                                    SAMUEL ETO’O, AMBASSADEUR DE YOUTH CONNECT
+                                </h4>
+                                <div class="souligne"></div>
+                                <p class="text-leader2 text-just">
+                                    <b>
+                                        La plate-forme virtuelle présentée au cours d’un point de presse Mincom-Minjec,
+                                        ce 4 décembre, sera lancée officiellement le 9 décembre 2019 au Complexe
+                                        Polyvalent des Sports de Yaoundé.
+                                    </b>
+                                    <br>
+                                    <br>
+                                    L’initiative YouthConnekt consiste à placer les jeunes au centre du développement
+                                    national. Sur le principe, elle les reliera au monde de l’entreprise afin de leur
+                                    permettre de découvrir les domaines potentiels de l’emploi.
+                                    Dans son discours, le ministre de la Communication, René Emmanuel Sadi a souligné
+                                    que le lancement de ce concept est placé sous le haut patronage du président de la
+                                    République, Paul Biya. Ce qui traduit l’attention inconditionnelle que le
+                                    gouvernement accorde aux préoccupations des jeunes. Quant à la cérémonie de
+                                    lancement officiel, elle sera présidée par le Premier ministre, chef du
+                                    gouvernement, Joseph Dion Ngute.
+
+                                    <br>
+                                    <b>
+                                        Objectifs de YouthConnekt
+                                    </b>
+                                    <br>
+                                    D’après le représentant résident du Programme des Nations Unies pour le
+                                    développement (PNUD), Jean Luc Stalon, Youth Connekt Cameroun (lien) est une
+                                    plate-forme supplémentaire pour inciter à l’entreprenariat. En effet, l’initiative
+                                    propose :<br>
+                                    – la création de 5000 emplois pour les jeunes en 3 ans,<br>
+                                    – le réarmement moral de la jeunesse,<br>
+                                    – la connexion des jeunes à l’échelle nationale,<br>
+                                    – la prise en compte du facteur genre,<br>
+                                    – la santé reproductive.
+                                    <br>
+                                    <br>
+                                    <b>
+                                        Une plate-forme d’échanges
+                                    </b>
+                                    <br>
+                                    Lancée en 2012 au Rwanda, cette plateforme africaine permet de mettre les jeunes en
+                                    relation avec leurs modèles. En plus, leurs jeunes pairs, leurs ressources
+                                    disponibles, leurs compétences spécialisées. Et, diverses opportunités économiques,
+                                    civiques et politiques offertes par un certain nombre d’acteurs. Selon le ministre
+                                    de la Jeunesse et de l’Education civique, Mounouna Foutsou, cette initiative entend
+                                    responsabiliser et faciliter la pleine participation de la jeunesse au
+                                    développement. Il a aussi relevé que les jeunes peuvent s’inspirer de nombreuses
+                                    figures majeures comme Samuel Eto’o, ambassadeur de Youth Connekt Cameroon
+                                    Initiative. Du lycée à l’université, des zones urbaines aux régions rurales, des
+                                    filles et des jeunes handicapés, Youth Connekt se veut un concept fédérateur. Bref,
+                                    une boussole pour mieux saisir les opportunités.
+
+                                </p>
+
+                                <div style="margin-top: 8vh;">
+                                    <button (click)="actualites()" class="button muanza">
+                                        Revenir aux actualités
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="muanza-video">
+                        <iframe width="350" height="205" src="https://www.youtube.com/embed/4jDMmtnuwoM" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

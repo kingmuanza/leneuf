@@ -11,9 +11,11 @@ $couleur3: darken($couleur-primaire, 10%);
 .bg2 {
     background-color: $couleur2;
 }
+
 .bd2 {
     border: 1px solid #3a660e;
 }
+
 .fg2 {
     color: $couleur2;
 }
@@ -21,9 +23,11 @@ $couleur3: darken($couleur-primaire, 10%);
 .bg3 {
     background-color: $couleur3;
 }
+
 .fg3 {
     background-color: $couleur3;
 }
+
 .bd3 {
     border-color: $couleur3;
 }
@@ -74,6 +78,14 @@ $couleur3: darken($couleur-primaire, 10%);
 }
 
 .activites {
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    h1+div {
+        font-size: 1.2em;
+    }
 
     padding-left: 5vw;
     padding-right: 5vw;
