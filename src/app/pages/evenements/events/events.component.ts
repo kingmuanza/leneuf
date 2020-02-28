@@ -41,6 +41,30 @@ export class EventsComponent implements OnInit, OnChanges {
       contenu: 'Placer les jeunes au centre du développement national',
       image: '../../../../assets/img/youth1.png',
       lien: ['']
+    },
+    {
+      id: '11',
+      titre: 'SAMUEL ETO’O, AMBASSADEUR DE YOUTH CONNECT',
+      // tslint:disable-next-line: max-line-length
+      contenu: 'France-diaspora: le club Efficience présente "Le gotha noir d\'Europe"',
+      image: '../../../../assets/img/eff1.png',
+      lien: ['']
+    },
+    {
+      id: '12',
+      titre: 'BANDE DESSINEE DE SAMUEL ETO’O',
+      // tslint:disable-next-line: max-line-length
+      contenu: 'Le footballeur Samuel Eto\'o vient de publier une bande dessinée consacrée à sa carrière',
+      image: '../../../../assets/img/bande2.jpg',
+      lien: ['']
+    },
+    {
+      id: '13',
+      titre: 'LE ETO’O CHARITY MATCH EN TURQUIE',
+      // tslint:disable-next-line: max-line-length
+      contenu: 'Samuel Eto’o a organisé le 16 juillet en Turquie un match de charité',
+      image: '../../../../assets/img/match1.png',
+      lien: ['']
     }
   ];
 

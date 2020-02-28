@@ -147,5 +147,8 @@
       }
     }
   },
-  "defaultProject": "etoo"
+  "defaultProject": "etoo",
+  "cli": {
+    "analytics": "6815ed4b-380c-4642-9a82-d29367ca126d"
+  }
 }
